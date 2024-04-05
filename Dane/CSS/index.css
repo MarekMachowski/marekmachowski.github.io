@@ -1,0 +1,50 @@
+#MojeFoto {
+height: 200px;
+width: 200px;
+border: red 20px;
+border-radius: 55px 150px 150px 150px;
+left: 5px;
+}
+#banner
+{
+    text-align: center;
+    color: green;
+    background-color: beige;
+    padding: 25px 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+}
+#body{
+
+background-color:blanchedalmond;
+
+}
+
+.box
+{
+    
+}
+.cytat
+{
+    font-style: italic;
+    font-family: cursive;
+    text-align:center;
+    display: flex;
+    padding: 5px;
+    align-items: flex-end;
+    justify-content: center;
+    width: 220px;
+    height: 254px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-end;
+
+}
+
+.podpis
+{
+    font-size: smaller;
+    font-family: 'Times New Roman', Times, serif;
+    text-align:center;
+    color: gray;
+    display: flex;
+}
