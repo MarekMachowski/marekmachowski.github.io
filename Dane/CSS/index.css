@@ -5,19 +5,17 @@
     border-radius: 5px 60px 60px 60px;
     left: 5px;
 }
+
 @keyframes radius {
     from {
-        
         border-radius: 600px 600px 600px 600px;
-      }
-    
-      to {
-      
-        border-radius: 20px 20px 20px 20px;
-       
-      }
-    
     }
+
+    to {
+        border-radius: 20px 20px 20px 20px;
+    }
+
+}
 
 
 #MojeFoto2 {
@@ -25,14 +23,16 @@
     width: 300px;
     border: red 20px;
     border-radius: 600px 600px 600px 600px;
-      }
+}
 
 
 #MojeFoto2:hover {
-    
+
     animation-duration: 0.3s;
     animation-name: radius;
-    animation-fill-mode:forwards;
+    animation-fill-mode: forwards;
+    animation-timing-function:ease
+
 }
 
 
@@ -48,11 +48,11 @@
 
 #body {
 
-    background-color: blanchedalmond;
-    background: linear-gradient(90deg, rgb(230, 233, 226), rgba(255,0,0,0) 85.71%),
-            linear-gradient(180deg,  rgb(102, 125, 228), rgba(0,255,0,0) 99.71%),
-            linear-gradient(270deg,  rgb(131, 139, 98), rgba(0,0,255,0) 75.71%),
-            linear-gradient(360deg,  rgb(209, 23, 23), rgba(0,0,255,0) 65.71%);
+
+    background: linear-gradient(90deg, rgb(255, 255, 255), rgba(255, 0, 0, 0) 89.71%),
+        linear-gradient(180deg, rgb(102, 125, 228), rgba(0, 255, 0, 0) 89.71%),
+        linear-gradient(270deg, rgb(52, 64, 170), rgba(0, 0, 255, 0) 75.71%),
+        linear-gradient(360deg, rgb(209, 23, 23), rgba(0, 0, 255, 0) 15.71%);
 }
 
 .cytat {
@@ -77,4 +77,3 @@
     color: gray;
     display: flex;
 }
- 
