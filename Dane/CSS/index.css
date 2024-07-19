@@ -90,15 +90,22 @@
 .projektyLinki {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around
-     
-     
+    justify-content: space-around;
+    align-items: center;
+ 
 
 }
 
 .link {
-    height: 100px;
+    height: auto;
     width: 200px;
+    max-height:95%; 
+    max-width:95%;
     
-     
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
