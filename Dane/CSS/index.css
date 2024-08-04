@@ -1,9 +1,7 @@
 #body{
     color: #444444;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-
 }
-
 
 #MojeFoto {
     height: auto;
@@ -39,7 +37,6 @@
     border-radius: 600px 600px 600px 600px;
 }
 
-
 #MojeFoto2:hover {
     animation-name: radius;
     animation-duration: 0.6s;
@@ -48,8 +45,6 @@
     animation-iteration-count: infinite;
 
 }
-
-
 
 #banner {
     position: sticky;
@@ -106,7 +101,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
     text-decoration: underline  #444444;
 }
 
