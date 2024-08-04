@@ -1,18 +1,26 @@
+#body{
+    color: #444444;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+
 #MojeFoto {
     height: auto;
     width: 300px;
-    border: red 20px;
-    border-radius: 5px 60px 60px 60px;
-    left: 5px;
+  
+    border-radius: 600px 600px 600px 600px;
+    left: 25px;
+    position: relative;
 }
 
 @keyframes radius {
     from {
-        border-radius: 600px 600px 600px 600px;
+        border-radius: 800px 800px 800px 800px;
     }
 
     to {
-        border-radius: 20px 20px 20px 20px;
+        border-radius: 5px 5px 5px 5px;
     }
 
 }
@@ -27,17 +35,18 @@
 #MojeFoto2 {
     height: auto;
     width: 300px;
-    border: red 20px;
+     
     border-radius: 600px 600px 600px 600px;
 }
 
 
 #MojeFoto2:hover {
-
-    animation-duration: 0.3s;
     animation-name: radius;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease
+    animation-duration: 0.6s;
+    animation-timing-function: cubic-bezier(1, 0, 0, 1);
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
 }
 
 
@@ -45,46 +54,60 @@
 #banner {
     position: sticky;
     text-align: center;
-    color: darkred;
-    background: linear-gradient(125deg, lightgray, dimgray 70%);
-    padding: 20px 4px;
+    background: linear-gradient(125deg, rgb(102, 125, 228), rgb(255, 255, 255) 45%);
+    padding: 10px 4px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
 }
- 
+
 .cytat {
+    background: -webkit-linear-gradient(#5775ec, #a33535 85%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    font-size: mediu;
+    
+}
+
+.podpis {
 
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     text-align: center;
     display: flex;
-    padding: 5px;
-    align-items: flex-end;
-    justify-content: center;
-    width: 220px;
-    flex-wrap: wrap;
-    align-content: flex-start;
+    width: 320px;
     justify-content: flex-end;
-
+    font-size: medium;
 }
 
-.podpis {
-    font-size: smaller;
-    font-family: 'Times New Roman', Times, serif;
+.podpis2 {
+
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     text-align: center;
-    color: gray;
     display: flex;
+    background: -webkit-linear-gradient(#a33535,#7d90e0);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    justify-content: flex-end;
+    font-size: medium;
 }
 
 .projekty {
- 
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    margin: 5px 5px 55px 5px;
 }
 
 .projektyTxt {
+    background: -webkit-linear-gradient(#5775ec, #a33535 85%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
+    text-decoration: underline  #444444;
 }
 
 .projektyLinki {
@@ -92,20 +115,24 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
- 
-
 }
 
 .link {
     height: auto;
     width: 200px;
-    max-height:95%; 
-    max-width:95%;
-    
-
-
+    max-height: 95%;
+    max-width: 95%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
+}
+
+.link2 {
+    height: auto;
+    width: 200px;
+    max-height: 95%;
+    max-width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
