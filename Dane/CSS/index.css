@@ -31,9 +31,7 @@
 }
 
 #MojeFoto2 {
-    height: auto;
-    width: 300px;
-     
+    height: auto;    
     border-radius: 600px 600px 600px 600px;
 }
 
@@ -119,14 +117,25 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    
 }
 
 .link2 {
-    height: auto;
-    width: 200px;
-    max-height: 95%;
-    max-width: 95%;
+    
+    max-height: 99%;
+    max-width: 99%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.link3 {
+    
+    width:auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    
 }
