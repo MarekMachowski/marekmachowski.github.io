@@ -1,5 +1,5 @@
+//program nadaje numerację zawodnika i godzinę startu w zależności od wieku i rejestracji
 let raceNumber = Math.floor(Math.random() * 1000);
-
 let runnerRegisteredEarly = false;
 let runnersAge = 122;
 

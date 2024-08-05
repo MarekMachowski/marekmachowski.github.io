@@ -1,15 +1,16 @@
+//program podaje nazwę i cenę dania z menu
 const menu = {
   _meal: "",
   _price: 0,
 
   set meal(mealToCheck) {
-    if (typeof mealToCheck === "string") {
+    if (typeof mealToCheck === "string") { //tylko nazwa
       return (this.meal = mealToCheck);
     }
   },
 
   set price(priceToCheck) {
-    if (typeof priceToCheck === "number") {
+    if (typeof priceToCheck === "number") { //tylko liczba
       return (this.price = priceToCheck);
     }
   },
@@ -22,9 +23,8 @@ const menu = {
   },
 };
 
-menu._meal = "Dupa W  ołowa";
-menu._price = 99.99;
-
+menu._meal = "Klopsiki";
+menu._price = 12.99;
 console.log(menu._meal)
 console.log(menu._price)
 console.log(menu.todaysSpecial)

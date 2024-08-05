@@ -1,47 +1,47 @@
+//program podaje losowe zapisane wcześniej odpowiedzi
 let userName = 'Marek'; //Podaj Twoje imię
-userName ? console.log(`Hello, ${userName}!`) : console.log("Hello!");
-const userQuestion = "Czy ja się tego nauczę? ";
-console.log(userName + " question is: " + userQuestion);
+userName ? console.log(`Hello, ${userName}!`) : console.log("Hello!"); //powitanie w zależności czy jest podana nazwa 
+const userQuestion = "Czy jestem piękny i bogaty? ";  //tutaj wpisz swoje pytanie
+console.log(userName + " pytanie brzmi: " + userQuestion);
 let randomNumber = Math.floor(Math.random() * 8);
 let eightBall = "";
-//console.log("Liczba Losowa >>>  " + randomNumber);
 
 switch (randomNumber) {
   case 0:
-    eightBall = "It is certain";
+    eightBall = "To jest pewne";
     break;
 
   case 1:
-    eightBall = "It is decidedly so";
+    eightBall = "Zdecydowanie tak";
     break;
 
   case 2:
-    eightBall = "Reply hazy try again";
+    eightBall = "Przyszłość jest mglista";
     break;
 
   case 3:
-    eightBall = "Cannot predict now";
+    eightBall = "Tego nikt nie wie";
     break;
 
   case 4:
-    eightBall = "Do not count on it";
+    eightBall = "Tego nie możesz być pewny";
     break;
 
   case 5:
-    eightBall = "My sources say no";
+    eightBall = "Moje żródła mówią nie";
     break;
 
   case 6:
-    eightBall = "Outlook not so good";
+    eightBall = "Dobrze to nie wygląda";
     break;
 
   case 7:
-    eightBall = "Signs point to yes";
+    eightBall = "Wszystko wskazuje że tak";
     break;
 };
 
 if (userQuestion) {
-console.log('Magiczna kula mówi: ' + eightBall)
+  console.log('Magiczna kula mówi: ' + eightBall)
 };
 
 
