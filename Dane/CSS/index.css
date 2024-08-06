@@ -1,26 +1,23 @@
-#body{
+#body {
     color: #444444;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 #MojeFoto {
     height: auto;
     width: 300px;
-  
-    border-radius: 600px 600px 600px 600px;
+    border-radius: 300px 300px 300px 300px;
     left: 25px;
     position: relative;
 }
 
 @keyframes radius {
     from {
-        border-radius: 800px 800px 800px 800px;
+        border-radius: 300px 300px 300px 300px;
     }
-
     to {
-        border-radius: 5px 5px 5px 5px;
+        border-radius: 3px 3px 3px 3px;
     }
-
 }
 
 .FinalFantasy {
@@ -31,8 +28,8 @@
 }
 
 #MojeFoto2 {
-    height: auto;    
-    border-radius: 600px 600px 600px 600px;
+    height: auto;
+    border-radius: 300px 300px 300px 300px;
 }
 
 #MojeFoto2:hover {
@@ -41,15 +38,11 @@
     animation-timing-function: cubic-bezier(1, 0, 0, 1);
     animation-direction: alternate;
     animation-iteration-count: infinite;
-
 }
 
 #banner {
-    position: sticky;
-    text-align: center;
     background: linear-gradient(125deg, rgb(102, 125, 228), rgb(255, 255, 255) 45%);
-    padding: 10px 4px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+    padding: 5px 5px;
 }
 
 .cytat {
@@ -57,15 +50,13 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    text-align: center;
     display: flex;
     justify-content: flex-end;
-    font-size: mediu;
-    
+    font-size: large;
+
 }
 
 .podpis {
-
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     text-align: center;
     display: flex;
@@ -75,11 +66,8 @@
 }
 
 .podpis2 {
-
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    text-align: center;
     display: flex;
-    background: -webkit-linear-gradient(#a33535,#7d90e0);
+    background: -webkit-linear-gradient(#a33535, #7d90e0);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     justify-content: flex-end;
@@ -99,7 +87,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: underline  #444444;
+    text-decoration: underline #444444;
 }
 
 .projektyLinki {
@@ -117,11 +105,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    
+
 }
 
 .link2 {
-    
+
     max-height: 99%;
     max-width: 99%;
     display: flex;
@@ -130,13 +118,22 @@
 }
 
 .link3 {
-    
-    width:auto;
-    
+
+    width: auto;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    
+
+}
+
+.footer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+
 }
