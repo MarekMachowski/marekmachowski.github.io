@@ -15,16 +15,18 @@
     from {
         border-radius: 300px 300px 300px 300px;
     }
+
     to {
         border-radius: 3px 3px 3px 3px;
     }
 }
 
 .FinalFantasy {
-    background: linear-gradient(90deg, rgb(255, 255, 255), rgba(255, 0, 0, 0) 89.71%),
+    background:
+        linear-gradient(90deg, rgb(255, 255, 255), rgba(255, 0, 0, 0) 89.71%),
         linear-gradient(180deg, rgb(102, 125, 228), rgba(0, 255, 0, 0) 89.71%),
         linear-gradient(270deg, rgb(52, 64, 170), rgba(0, 0, 255, 0) 75.71%),
-        linear-gradient(360deg, rgb(209, 23, 23), rgba(0, 0, 255, 0) 15.71%);
+        linear-gradient(370deg, rgb(209, 23, 23), rgba(0, 0, 255, 0) 14.71%);
 }
 
 #MojeFoto2 {
@@ -34,19 +36,20 @@
 
 #MojeFoto2:hover {
     animation-name: radius;
-    animation-duration: 0.6s;
-    animation-timing-function: cubic-bezier(1, 0, 0, 1);
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-delay: -120ms;
 }
 
 #banner {
-    background: linear-gradient(125deg, rgb(102, 125, 228), rgb(255, 255, 255) 45%);
+    background: 
+    linear-gradient(4deg, rgb(102, 125, 228), rgb(255, 255, 255) 60%);
+     
     padding: 5px 5px;
 }
 
 .cytat {
-    background: -webkit-linear-gradient(#5775ec, #a33535 85%);
+    background: linear-gradient(#5775ec, #a33535 85%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
@@ -57,17 +60,14 @@
 }
 
 .podpis {
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     text-align: center;
-    display: flex;
-    width: 320px;
-    justify-content: flex-end;
+    width: 400px;
     font-size: medium;
 }
 
 .podpis2 {
     display: flex;
-    background: -webkit-linear-gradient(#a33535, #7d90e0);
+    background: linear-gradient(#a33535, #7d90e0);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     justify-content: flex-end;
@@ -100,8 +100,6 @@
 .link {
     height: auto;
     width: 200px;
-    max-height: 95%;
-    max-width: 95%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -109,9 +107,6 @@
 }
 
 .link2 {
-
-    max-height: 99%;
-    max-width: 99%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -120,7 +115,6 @@
 .link3 {
 
     width: auto;
-
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
